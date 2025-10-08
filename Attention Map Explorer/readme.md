@@ -19,5 +19,5 @@ The function, `get_token_to_all_attn`, processes the model's attention outputs t
 This project is a starting point for further exploration into model interpretability. The project currently supports **FLAVA** model but it will incorporate more recent and powerful models like **CLIP**, **LLaVA**, **Florence-2** to compare their attention patterns.It will also **Expand Functionality** by integrating more interpretability techniques beyond attention maps, such as **saliency maps**.
 
 
-![Output Demo](assets/cat.png)
-![Output Demo](assets/dog.png)
+![Output Demo](Attention-Map-Explorer/assets/cat.png)
+![Output Demo](Attention-Map-Explorer/assets/cat.png)
