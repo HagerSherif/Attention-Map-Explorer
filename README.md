@@ -14,10 +14,10 @@ The function, `get_token_to_all_attn`, processes the model's attention outputs t
 3.  **Reshapes into a Grid**: The one-dimensional attention scores for the selected token are reshaped into a two-dimensional grid that matches the spatial layout of the image patches.
 4.  **Generates and Renders the Plot**: The resulting attention map is overlaid on the original image, with a higher intensity of color indicating a stronger attention score. 
 
+![Output Demo](Attention%20Map%20Explorer/assets/cat.png)
+![Output Demo](Attention%20Map%20Explorer/assets/dog.png)
+
+
 ### Future Work:
 
 This project is a starting point for further exploration into model interpretability. The project currently supports **FLAVA** model but it will incorporate more recent and powerful models like **CLIP**, **LLaVA**, **Florence-2** to compare their attention patterns.It will also **Expand Functionality** by integrating more interpretability techniques beyond attention maps, such as **saliency maps**.
-
-
-![Output Demo](assets/cat.png)
-![Output Demo](assets/dog.png)
