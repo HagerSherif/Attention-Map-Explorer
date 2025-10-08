@@ -1,0 +1,9 @@
+torch
+torchvision
+torchmultimodal
+transformers
+typing_extensions
+Pillow
+matplotlib
+streamlit
+numpy

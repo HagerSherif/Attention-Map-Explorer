@@ -1,0 +1,27 @@
+/* ======== General Page Styling ======== */
+body {
+    background-color: #3f72d6;
+    color: #fafafa;
+}
+
+h1, h2, h3 {
+    color: #6e6d86;
+}
+
+.stButton>button {
+    background-color: #86a8eb;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5em 1.2em;
+    border: none;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #3a44d3;
+}
+
+/* Sidebar tweaks */
+[data-testid="stSidebar"] {
+    background-color: #86a8eb;
+}
